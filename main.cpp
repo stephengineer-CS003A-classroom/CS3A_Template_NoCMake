@@ -3,10 +3,7 @@
 
 using namespace std;
 
-bool simpleTest(bool debuug=false)
-{
-  return true;
-}
+bool basic_test(bool debug=false);
 
 int main(int argv, char** argc)
 {
@@ -14,11 +11,16 @@ int main(int argv, char** argc)
 
   cout << "\n\n=====================" << endl;
 
-  if (simpleTest()) {
+  if (basic_test()) {
     cout << "PASSED" << endl;
   } else {
     cout << "FAILED" << endl;
   }
   
   return 0;
+}
+
+bool basic_test(bool debug)
+{
+  return true;
 }
