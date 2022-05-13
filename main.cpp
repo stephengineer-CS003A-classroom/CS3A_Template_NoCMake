@@ -1,6 +1,14 @@
 #include <iostream>
 #include <iomanip>
 
+//------------------------------------------------------------------------------------------
+//Files we are testing:
+#include "includes/stub/stub.h"
+
+
+
+//------------------------------------------------------------------------------------------
+
 using namespace std;
 
 bool basic_test(bool debug=false);
@@ -19,6 +27,7 @@ int main(int argv, char** argc)
   
   return 0;
 }
+
 
 bool basic_test(bool debug)
 {
