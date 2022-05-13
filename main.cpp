@@ -31,5 +31,5 @@ int main(int argv, char** argc)
 
 bool basic_test(bool debug)
 {
-  return true;
+  return stub();
 }
